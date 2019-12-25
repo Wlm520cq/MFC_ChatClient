@@ -115,8 +115,8 @@ BOOL CMFCChatClientDlg::OnInitDialog()
 	// TODO: 在此添加额外的初始化代码
 
 	//设置固定的端口号
-	GetDlgItem(IDC_PORT_EDIT)->SetWindowText(_T("5000"));
-	GetDlgItem(IDC_IPADDRESS)->SetWindowText(_T("127.0.0.1"));
+	GetDlgItem(IDC_PORT_EDIT)->SetWindowText(_T("8888"));
+	GetDlgItem(IDC_IPADDRESS)->SetWindowText(_T("127.0.0.2"));
 
 	//从配置文件里面获取昵称
 	WCHAR wszName[MAX_PATH] = { 0 };
